@@ -1,0 +1,133 @@
+@media screen and (min-width: 854px) {
+   .wrapper2 {
+   margin-top: 5%;
+   margin-left: -10%;
+   margin-right: 15%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.card{
+   display: block;
+   margin-top: 1%;
+ }
+ .cover-image {
+  margin-left: 20%;
+}
+
+ .character{
+  height: 300px;
+  width: 300px;
+}
+.text {
+  width: 320px;
+  margin-top: 90%;
+}
+ button {
+   margin-top: 90%;
+ }
+ .bubble2, .bubble3, .bubble4 {
+  margin-top: -20%;
+  margin-left: -10%;
+}
+.navImg {
+  position: relative;
+  height: 200px;
+}
+.navImg:nth-child(2){
+  margin-left: 0.5%;
+}
+.navImg:nth-child(3), .navImg:nth-child(4), .navImg:nth-child(5), .navImg:nth-child(6){
+  display: block;
+}
+nav a {
+  position: absolute;
+  margin-top: 1%;
+}
+#first {
+  margin-left: 10%;
+}
+#veryFirst {
+  display: block;
+}
+#first2 {
+  margin-left: 22%;
+}
+#second2 {
+  margin-left: 39%;
+}
+#third2 {
+  margin-left: 56%;
+}
+#fourth2 {
+  margin-left: 73%;
+}
+     footer {
+        margin-top: 10%;
+        margin-left: 40%;
+    } 
+  }
+  @media screen and (min-width: 412px) {
+    .navImg {
+      height: 8%;
+      width: 200px;
+      }
+  }
+  @media screen and (width: 768px) {
+    .wrapper2, footer {
+      margin-left: 25%;
+      }
+  }
+  @media screen and (width: 820px) {
+    .wrapper2, footer {
+      margin-left: 25%;
+      }
+  }
+  /* @media screen and (width: 853px) {
+    .wrapper2 {
+      margin-top: 10%;
+      margin-left: 25%;
+      width: 850px;
+    }
+      footer {
+        margin-top: 35%;
+        margin-left: 35%;
+      }
+  } */
+  @media screen and (width: 1024px) {
+    .wrapper2 {
+      width: 920px;
+    }
+    .text {
+      width: 250px;
+      }
+      footer {
+        margin-top: 25%;
+        margin-left: 30%;
+      }
+  }
+  @media screen and (width: 1280px) {
+    .wrapper2 {
+      width: 1050px;
+    }
+    footer {
+      margin-left: 30%;
+    }
+  }
+  @media screen and (width: 912px) {
+    .wrapper2 {
+      width: 900px;
+    }
+    .text {
+      width: 200px;
+      }
+      footer {
+        margin-top: 25%;
+        margin-left: 25%;
+      }
+  }
+  @media screen and (width: 540px) {
+    .wrapper2, footer {
+      margin-left: 15%;
+      }
+  }
