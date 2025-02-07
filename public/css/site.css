@@ -512,3 +512,16 @@ button {
   }
 }
 
+.share {
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 35%;
+  border: none;
+  border-radius: 5px;
+  background-color: #5d47a3;
+}
+
+.share a{
+  text-decoration: none;
+ color: white;
+}
