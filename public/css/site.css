@@ -458,7 +458,7 @@ button {
   top: -66%;
   left: 20%;
 }
-.bubble2:nth-child(3) {
+/* .bubble2:nth-child(3) {
   top: -90%;
   left: 28%;
 }
@@ -489,7 +489,7 @@ button {
 .bubble3:nth-child(6) {
   top: -50%;
   left: 110%;
-}
+} */
 .anim {
   animation: moving 1.5s linear reverse forwards;
 }
