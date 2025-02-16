@@ -7,7 +7,7 @@ let cards = document.querySelectorAll('.card')
       }
 let navs = document.querySelectorAll('a')
 navs.forEach(x => { 
-    Array(6).fill().forEach(() => {
+    Array(2).fill().forEach(() => {
       let bubbleDiv = document.createElement('span')
       bubbleDiv.innerHTML = `<img class="playStars" src="public/images/3.png">`
       bubbleDiv.className = 'bubble2'
