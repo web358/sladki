@@ -213,6 +213,8 @@ button {
   z-index: -1;
 }
 .text {
+   width: 100%;
+    font-family: 'Courier New', Courier, monospace;
   margin-top: 50%;
   color: white;
   font-family: "Lucida Console", "Courier New", monospace;
