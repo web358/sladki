@@ -20,6 +20,7 @@
   width: 300px;
 }
 .text {
+  display: block;
   width: 320px;
   margin-top: 90%;
 }
@@ -62,8 +63,11 @@ nav a {
 #fourth2 {
   margin-left: 73%;
 }
-   .share {
+.share {
   display: block;
+}
+.noMobile {
+  display: none;
 }
      footer {
         margin-top: 10%;
@@ -121,7 +125,7 @@ nav a {
     .wrapper2 {
       width: 900px;
     }
-    .text {
+    .text, .noMobile {
       width: 200px;
       }
       footer {
@@ -135,12 +139,11 @@ nav a {
       }
   }
 
-
-  @media screen and (max-height: 600px) {
+  /* @media screen and (max-height: 600px) {
     .share {
       display: none;
       }
       footer p:nth-child(2){
         display: none;
       }
-  }
+  } */
