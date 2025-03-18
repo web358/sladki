@@ -205,16 +205,15 @@ button {
   height: 200px;
   width: 200px;
 }
-.character, .text {
+.character, .text, .noMobile {
   width: 100%;
   opacity: 0;
   transition: all 0.5s;
   position: absolute;
   z-index: -1;
 }
-.text {
-   width: 100%;
-    font-family: 'Courier New', Courier, monospace;
+.text, .noMobile {
+  width: 100%;
   margin-top: 50%;
   color: white;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -460,6 +459,7 @@ button {
   top: -66%;
   left: 20%;
 }
+
 .anim {
   animation: moving 1.5s linear reverse forwards;
 }
@@ -495,4 +495,10 @@ button {
 .share a{
   text-decoration: none;
  color: white;
+}
+.noMobile {
+  display: block;
+}
+.text {
+  display: none;
 }
